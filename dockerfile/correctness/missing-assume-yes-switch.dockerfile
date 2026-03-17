@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:13.4
 # ruleid: missing-assume-yes-switch
 RUN apt-get install semgrep=0.30.0
 

@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:13.6
 
 # ok: avoid-apt-get-upgrade
 RUN apt-get update
